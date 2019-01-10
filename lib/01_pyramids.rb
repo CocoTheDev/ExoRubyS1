@@ -21,7 +21,6 @@ def full_pyramid
     nb_etages = gets.chomp.to_i
     puts "Voici la pyramide :"
 
-
     nb_hash = 1
     nb_espace = nb_etages - 1
 
@@ -38,7 +37,7 @@ puts "Salut, bienvenue dans ma super pyramide ! Combien d'étages veux-tu ?"
    while true     
         nb_etages = gets.chomp.to_i
         break if nb_etages % 2 != 0
-        puts "Met moi un nombre pair sale connard"
+        puts "Met moi un nombre pair mon bichon"
    end
     puts "Voici la pyramide :"
     nb_etages_double = nb_etages / 2 + 1
@@ -59,6 +58,9 @@ puts "Salut, bienvenue dans ma super pyramide ! Combien d'étages veux-tu ?"
     end
 end
 
+half_pyramid
+full_pyramid
+wtf_pyramid
 
 
 
